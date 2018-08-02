@@ -1,0 +1,15 @@
+<html>
+<body>
+<script>
+function startTime(){
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds(); 
+  return [ h, m, s ].join(':')
+}
+document.getElementById('txt').innerHTML = startTime();
+</script>
+<div id="txt"></div>
+</body>
+</html>
