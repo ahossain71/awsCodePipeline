@@ -22,3 +22,4 @@ artifacts:
     - HelloWorld.js
     - index.html
     - appspec.yml
+    - scripts/*
