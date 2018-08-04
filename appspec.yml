@@ -5,9 +5,9 @@ files:
     destination: /var/www/html/
   - source: scripts/install_dependencies.js
     destination: /var/www/html/
-  - source: scripts/install_dependencies.js
+  - source: scripts/stop_server.js
     destination: /var/www/html/
-  - source: scripts/install_dependencies.js
+  - source: scripts/start_server.js
     destination: /var/www/html/
 hooks:
   BeforeInstall:
