@@ -22,6 +22,8 @@ artifacts:
     - HelloWorld.js
     - index.html
     - appspec.yml
-    - scripts/*
+    - scripts/start_server.js
+    - scripts/stop_server.js
+    - script/install_dependencies.js
   
 
