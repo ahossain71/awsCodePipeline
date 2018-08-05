@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Installing Mocha...
+      - echo Installing Mocha....
       - npm install -g mocha
   pre_build:
     commands:
@@ -19,11 +19,7 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - HelloWorld.js
     - index.html
     - appspec.yml
-    - start_server.js
-    - stop_server.js
-    - install_dependencies.js
-  
+   
 
