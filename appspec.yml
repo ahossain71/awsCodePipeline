@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: sample.war
-    destination: CATALINA_HOME/webapps
+    destination: $CATALINA_BASE/webapps
 hooks:
   BeforeInstall:
 
