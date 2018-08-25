@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /sample.war
+  - source: sample.war
     destination: $CATALINA_HOME/sample
 hooks:
   BeforeInstall:
