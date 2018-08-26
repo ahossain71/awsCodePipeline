@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: sample.war
+  - source: index.html
     destination: /usr/share/tomcat7/webapps/sample
 hooks:
   BeforeInstall:
