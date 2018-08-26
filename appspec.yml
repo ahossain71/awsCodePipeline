@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: index.html
-    destination: /usr/share/tomcat7/webapps/sample
+    destination: $CATALINA_HOME/sample
     overwrite: yes
 hooks:
   BeforeInstall:
