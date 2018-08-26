@@ -3,6 +3,7 @@ os: linux
 files:
   - source: index.html
     destination: /usr/share/tomcat7/webapps/sample
+    overwrite: yes
 hooks:
   BeforeInstall:
 
