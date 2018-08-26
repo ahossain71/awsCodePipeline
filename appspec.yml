@@ -2,11 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: index.html
-    destination: $CATALINA_HOME/sample
+    destination: $CATALINA_BASE/sample
     overwrite: yes
 hooks:
   BeforeInstall:
 
   ApplicationStop:
-  
-
