@@ -8,16 +8,22 @@ files:
     destination: /usr/share/tomcat7/webapps/sample
     overwrite: yes
   - source: wared/testJavaApp.war
-    destination: /usr/share/tomcat7/webapps/sample/unwared
+    destination: /usr/share/tomcat7/webapps/unwared
     overwrite: yes
   - source: jared/testJavaApp.jar
-    destination: /usr/share/tomcat7/webapps/sample/unjared
+    destination: /usr/share/tomcat7/webapps/unjared
     overwrite: yes
   - source: eared/testJavaApp.ear
-    destination: /usr/share/tomcat7/webapps/sample/uneared
+    destination: /usr/share/tomcat7/webapps/uneared
     overwrite: yes
   - source: sample/sample.zip
-    destination: /usr/share/tomcat7/webapps/sample/unzipped
+    destination: /usr/share/tomcat7/webapps/unzipped
+    overwrite: yes
+  - source: META-INF/**/*
+    destination: /usr/share/tomcat7/webapps
+    overwrite: yes
+  - source: META-INF/**/*
+    destination: /usr/share/tomcat7/webapps
     overwrite: yes
 hooks:
   BeforeInstall:
