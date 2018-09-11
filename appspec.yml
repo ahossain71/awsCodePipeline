@@ -19,19 +19,19 @@ files:
   - source: sample/sample.zip
     destination: /usr/share/tomcat7/webapps/unzipped
     overwrite: yes
-  - source: META-INF/MANIFEST.MF
+  - source: /MANIFEST.MF
     discard-paths: no
     base-directory: META-INF
     destination: /usr/share/tomcat7/webapps/META-INF
     overwrite: yes
-  - source: WEB-INF
+  - source: /web.xml
     discard-paths: no
-    base-directory: WEB-INF/web.xml
+    base-directory: WEB-INF
     destination: /usr/share/tomcat7/webapps/WEB-INF
     overwrite: yes
-  - source: WEB-INF
+  - source: /classes/mypackages/Hello.class
     discard-paths: no
-    base-directory: WEB-INF/classes/mypackages/Hello.class
+    base-directory: WEB-INF
     destination: /usr/share/tomcat7/webapps/WEB-INF
     overwrite: yes
 hooks:
