@@ -16,7 +16,7 @@ files:
   - source: eared/testJavaApp.ear
     destination: /usr/share/tomcat7/webapps/sample/uneared
     overwrite: yes
-  - source: zipped/sample.zip
+  - source: sample/sample.zip
     destination: /usr/share/tomcat7/webapps/sample/unzipped
     overwrite: yes
 hooks:
