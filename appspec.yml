@@ -25,10 +25,9 @@ files:
   - source: WEB-INF/web.xml
     destination: /usr/share/tomcat7/webapps/WEB-INF
     overwrite: yes
-  - source: WEB-INF/classes/mypackages/Hello.class
+  - source: WEB-INF/classes/mypackage/Hello.class
     destination: /usr/share/tomcat7/webapps/WEB-INF
     overwrite: yes
 hooks:
   BeforeInstall:
-
   ApplicationStop:
