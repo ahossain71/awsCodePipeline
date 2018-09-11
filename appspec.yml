@@ -7,16 +7,16 @@ files:
   - source: hello.jsp
     destination: /usr/share/tomcat7/webapps/sample
     overwrite: yes
-  - source: /wared/*
+  - source: wared/*
     destination: /usr/share/tomcat7/webapps/sample/unwared
     overwrite: yes
-  - source: /jared/*
+  - source: jared/*
     destination: /usr/share/tomcat7/webapps/sample/unjared
     overwrite: yes
-  - source: /eared/*
+  - source: eared/*
     destination: /usr/share/tomcat7/webapps/sample/uneared
     overwrite: yes
-  - source: /zipped/*
+  - source: zipped/*
     destination: /usr/share/tomcat7/webapps/sample/unzipped
     overwrite: yes
 hooks:
