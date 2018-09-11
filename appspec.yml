@@ -22,7 +22,7 @@ files:
   - source: META-INF/**/*
     destination: /usr/share/tomcat7/webapps
     overwrite: yes
-  - source: META-INF/**/*
+  - source: WEB-INF/**/*
     destination: /usr/share/tomcat7/webapps
     overwrite: yes
 hooks:
