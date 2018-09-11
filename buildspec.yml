@@ -20,5 +20,10 @@ artifacts:
   files:
     - appspec.yml
     - index.html
+    - hello.jsp
+    - /eared/*
+    - /jared/*
+    - /wared/*
+    - /sample/*
    
 

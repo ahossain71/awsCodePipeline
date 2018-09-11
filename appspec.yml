@@ -4,6 +4,21 @@ files:
   - source: index.html
     destination: /usr/share/tomcat7/webapps/sample
     overwrite: yes
+  - source: hello.jsp
+    destination: /usr/share/tomcat7/webapps/sample
+    overwrite: yes
+  - source: /wared/*
+    destination: /usr/share/tomcat7/webapps/sample/unwared
+    overwrite: yes
+  - source: /jared/*
+    destination: /usr/share/tomcat7/webapps/sample/unjared
+    overwrite: yes
+  - source: /eared/*
+    destination: /usr/share/tomcat7/webapps/sample/uneared
+    overwrite: yes
+  - source: /zipped/*
+    destination: /usr/share/tomcat7/webapps/sample/unzipped
+    overwrite: yes
 hooks:
   BeforeInstall:
 
