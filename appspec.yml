@@ -20,10 +20,10 @@ files:
     destination: /usr/share/tomcat7/webapps/unzipped
     overwrite: yes
   - source: META-INF/**/*
-    destination: /usr/share/tomcat7/webapps
+    destination: /usr/share/tomcat7/webapps/META-INF
     overwrite: yes
   - source: WEB-INF/**/*
-    destination: /usr/share/tomcat7/webapps
+    destination: /usr/share/tomcat7/webapps/WEB-INF
     overwrite: yes
 hooks:
   BeforeInstall:
