@@ -21,9 +21,9 @@ artifacts:
     - appspec.yml
     - index.html
     - hello.jsp
-    - eared/*
-    - jared/*
-    - wared/*
-    - sample/*
+    - eared/testJavaApp.ear
+    - jared/testJavaApp.jar
+    - wared/testJavaApp.war
+    - sample/sample.zip
    
 
