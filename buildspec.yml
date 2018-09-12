@@ -27,5 +27,6 @@ artifacts:
     - sample/sample.zip
     - META-INF/**/*
     - WEB-INF/**/*
+    - images/**/*
    
 
