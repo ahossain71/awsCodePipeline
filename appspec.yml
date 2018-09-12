@@ -8,7 +8,7 @@ files:
 #    destination: /usr/share/tomcat7/webapps/sample
 #    overwrite: yes
   - source: wared/testJavaApp.war
-    destination: /usr/share/tomcat7/webapps
+    destination: /usr/share/tomcat7/webapps/unwared
     overwrite: yes
 #  - source: jared/testJavaApp.jar
 #    destination: /usr/share/tomcat7/webapps/unjared
