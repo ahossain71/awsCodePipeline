@@ -1,24 +1,24 @@
 version: 0.0
 os: linux
 files:
-# - source: index.html
-#    destination: /usr/share/tomcat7/webapps/sample
-#    overwrite: yes
-#  - source: hello.jsp
-#    destination: /usr/share/tomcat7/webapps/sample
-#    overwrite: yes
+  - source: index.html
+    destination: /usr/share/tomcat7/webapps
+    overwrite: yes
+  - source: hello.jsp
+    destination: /usr/share/tomcat7/webapps
+    overwrite: yes
   - source: wared/testJavaApp.war
     destination: /usr/share/tomcat7/webapps/unwared
     overwrite: yes
-#  - source: jared/testJavaApp.jar
-#    destination: /usr/share/tomcat7/webapps/unjared
-#    overwrite: yes
-#  - source: eared/testJavaApp.ear
-#    destination: /usr/share/tomcat7/webapps/uneared
-#    overwrite: yes
-#  - source: sample/sample.zip
-#    destination: /usr/share/tomcat7/webapps/unzipped
-#    overwrite: yes
+  - source: jared/testJavaApp.jar
+    destination: /usr/share/tomcat7/webapps/unjared
+    overwrite: yes
+  - source: eared/testJavaApp.ear
+    destination: /usr/share/tomcat7/webapps/uneared
+    overwrite: yes
+  - source: zipped/sample.zip
+    destination: /usr/share/tomcat7/webapps/unzipped
+    overwrite: yes
   - source: images/DevOps.png
     destination: /usr/share/tomcat7/webapps/images
     overwrite: yes
