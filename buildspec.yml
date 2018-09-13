@@ -21,10 +21,10 @@ artifacts:
     - appspec.yml
     - index.html
     - hello.jsp
-    - eared/testJavaApp.ear
-    - jared/testJavaApp.jar
-    - wared/testJavaApp.war
-    - zipped/testJavaApp.zip
+    - testEarApp.ear
+    - testJarApp.jar
+    - testWarApp.war
+    - testZipApp.zip
     - META-INF/**/*
     - WEB-INF/**/*
     - images/**/*
