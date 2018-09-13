@@ -24,7 +24,7 @@ artifacts:
     - eared/testJavaApp.ear
     - jared/testJavaApp.jar
     - wared/testJavaApp.war
-    - sample/sample.zip
+    - zipped/sample.zip
     - META-INF/**/*
     - WEB-INF/**/*
     - images/**/*
