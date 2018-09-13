@@ -16,7 +16,7 @@ files:
   - source: eared/testJavaApp.ear
     destination: /usr/share/tomcat7/webapps/uneared
     overwrite: yes
-  - source: zipped/sample.zip
+  - source: zipped/testJavaApp.zip
     destination: /usr/share/tomcat7/webapps/unzipped
     overwrite: yes
   - source: images/DevOps.png
