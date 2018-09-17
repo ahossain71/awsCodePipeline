@@ -16,6 +16,7 @@ files:
   - source: sample/
     destination: /usr/share/tomcat7/webapps/sample
     overwrite: yes
+    remove: /usr/share/tomcat7/webapps/sample/
   - source: appspec.yml
     destination: /usr/share/tomcat7/webapps/appspec.yml
     overwrite: yes
