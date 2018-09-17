@@ -20,7 +20,7 @@ files:
     destination: /usr/share/tomcat7/webapps/WEB-INF
     overwrite: yes
   - source: WEB-INF/classes/mypackage/Hello.class
-    destination: /usr/share/tomcat7/webapps/WEB-INF
+    destination: /usr/share/tomcat7/webapps/WEB-INF/classes/mypackage
     overwrite: yes
 hooks:
   BeforeInstall:
