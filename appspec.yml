@@ -7,18 +7,6 @@ files:
   - source: hello.jsp
     destination: /usr/share/tomcat7/webapps
     overwrite: yes
-  - source: testWarApp.war
-    destination: /usr/share/tomcat7/webapps
-    overwrite: yes
-  - source: testJarApp.jar
-    destination: /usr/share/tomcat7/webapps
-    overwrite: yes
-  - source: testEarApp.ear
-    destination: /usr/share/tomcat7/webapps
-    overwrite: yes
-  - source: testZipApp.zip
-    destination: /usr/share/tomcat7/webapps
-    overwrite: yes
   - source: images/DevOps.png
     destination: /usr/share/tomcat7/webapps/images
     overwrite: yes
