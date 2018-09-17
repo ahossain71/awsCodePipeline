@@ -9,14 +9,13 @@ files:
     overwrite: yes
   - source: wared/wared.war
     destination: /usr/share/tomcat7/webapps/unwared
-    overwrite: zipped
+    overwrite: yes
   - source: zipped/zipped.zip
     destination: /usr/share/tomcat7/webapps/unzipped
     overwrite: yes
   - source: sample/
     destination: /usr/share/tomcat7/webapps/sample
     overwrite: yes
-    remove: /usr/share/tomcat7/webapps/sample/
   - source: appspec.yml
     destination: /usr/share/tomcat7/webapps/appspec.yml
     overwrite: yes

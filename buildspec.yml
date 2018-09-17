@@ -22,7 +22,7 @@ artifacts:
     - jared/*
     - wared/*
     - zipped/*
-    - sample/**/*
+    - sample/**/**/*
     - buildspec.yml
     - appspec.yml
 
