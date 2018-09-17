@@ -13,29 +13,8 @@ files:
   - source: zipped/zipped.zip
     destination: /usr/share/tomcat7/webapps/unzipped
     overwrite: yes
-  - source: sample/index.html
-    destination: /usr/share/tomcat7/webapps/sample/index.html
-    overwrite: yes
-  - source: sample/hello.jsp
-    destination: /usr/share/tomcat7/webapps/sample/hello.jsp
-    overwrite: yes
-  - source: sample/buildspec.yml
-    destination: /usr/share/tomcat7/webapps/sample/buildspec.yml
-    overwrite: yes
-  - source: sample/appspec.yml
-    destination: /usr/share/tomcat7/webapps/sample/appspec.yml
-    overwrite: yes
-  - source: sample/appspec.yml
-    destination: /usr/share/tomcat7/webapps/sample/appspec.yml
-    overwrite: yes
-  - source: sample/META-INF/MANIFEST.MF
-    destination: /usr/share/tomcat7/webapps/sample/META-INF/MANIFEST.MF
-    overwrite: yes
-  - source: sample/WEB-INF/web.xml
-    destination: /usr/share/tomcat7/webapps/sample/WEB-INF/web.xml
-    overwrite: yes
-  - source: sample/WEB-INF/classes/mypackage/hello.class
-    destination: /usr/share/tomcat7/webapps/sample/WEB-INF/classes/mypackage/hello.class
+  - source: sample/
+    destination: /usr/share/tomcat7/webapps/sample
     overwrite: yes
   - source: appspec.yml
     destination: /usr/share/tomcat7/webapps/appspec.yml
