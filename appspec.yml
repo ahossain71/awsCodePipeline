@@ -1,26 +1,41 @@
 version: 0.0
 os: linux
 files:
-  - source: index.html
-    destination: /usr/share/tomcat7/webapps
+  - source: eared/eared.ear
+    destination: /usr/share/tomcat7/webapps/uneared
     overwrite: yes
-  - source: hello.jsp
-    destination: /usr/share/tomcat7/webapps
+  - source: jared/jared.jar
+    destination: /usr/share/tomcat7/webapps/unjared
     overwrite: yes
-  - source: images/DevOps.png
-    destination: /usr/share/tomcat7/webapps/images
+  - source: wared/wared.war
+    destination: /usr/share/tomcat7/webapps/unwared
+    overwrite: zipped
+  - source: zipped/zipped.zip
+    destination: /usr/share/tomcat7/webapps/unzipped
     overwrite: yes
-  - source: images/tomcat.gif
-    destination: /usr/share/tomcat7/webapps/images
+  - source: sample/index.html
+    destination: /usr/share/tomcat7/webapps/sample/index.html
     overwrite: yes
-  - source: META-INF/MANIFEST.MF
-    destination: /usr/share/tomcat7/webapps/META-INF
+  - source: sample/hello.jsp
+    destination: /usr/share/tomcat7/webapps/sample/hello.jsp
     overwrite: yes
-  - source: WEB-INF/web.xml
-    destination: /usr/share/tomcat7/webapps/WEB-INF
+  - source: sample/buildspec.yml
+    destination: /usr/share/tomcat7/webapps/sample/buildspec.yml
     overwrite: yes
-  - source: WEB-INF/classes/mypackage/Hello.class
-    destination: /usr/share/tomcat7/webapps/WEB-INF/classes/mypackage
+  - source: sample/appspec.yml
+    destination: /usr/share/tomcat7/webapps/sample/appspec.yml
+    overwrite: yes
+  - source: sample/appspec.yml
+    destination: /usr/share/tomcat7/webapps/sample/appspec.yml
+    overwrite: yes
+  - source: sample/META-INF/MANIFEST.MF
+    destination: /usr/share/tomcat7/webapps/sample/META-INF/MANIFEST.MF
+    overwrite: yes
+  - source: sample/WEB-INF/web.xml
+    destination: /usr/share/tomcat7/webapps/sample/WEB-INF/web.xml
+    overwrite: yes
+  - source: sample/WEB-INF/classes/mypackage/hello.class
+    destination: /usr/share/tomcat7/webapps/sample/WEB-INF/classes/mypackage/hello.class
     overwrite: yes
 hooks:
   BeforeInstall:

@@ -18,9 +18,11 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - eared/*
-    - jared/*
-    - wared/*
-    - zipped/*
-    - sample/**/*
+    - appspec.yml
+    - index.html
+    - hello.jsp
+    - META-INF/**/*
+    - WEB-INF/**/*
+    - images/**/*
+   
 
