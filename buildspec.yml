@@ -23,4 +23,6 @@ artifacts:
     - wared/*
     - zipped/*
     - sample/**/*
+    - buildspec.yml
+    - appspec.yml
 

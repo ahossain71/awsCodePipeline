@@ -37,6 +37,12 @@ files:
   - source: sample/WEB-INF/classes/mypackage/hello.class
     destination: /usr/share/tomcat7/webapps/sample/WEB-INF/classes/mypackage/hello.class
     overwrite: yes
+  - source: appspec.yml
+    destination: /usr/share/tomcat7/webapps/appspec.yml
+    overwrite: yes
+  - source: buildspec.yml
+    destination: /usr/share/tomcat7/webapps/buildspec.yml
+    overwrite: yes
 hooks:
   BeforeInstall:
   ApplicationStop:
