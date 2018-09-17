@@ -1,0 +1,39 @@
+version: 0.0
+os: linux
+files:
+  - source: index.html
+    destination: /usr/share/tomcat7/webapps
+    overwrite: yes
+  - source: hello.jsp
+    destination: /usr/share/tomcat7/webapps
+    overwrite: yes
+  - source: testWarApp.war
+    destination: /usr/share/tomcat7/webapps
+    overwrite: yes
+  - source: testJarApp.jar
+    destination: /usr/share/tomcat7/webapps
+    overwrite: yes
+  - source: testEarApp.ear
+    destination: /usr/share/tomcat7/webapps
+    overwrite: yes
+  - source: testZipApp.zip
+    destination: /usr/share/tomcat7/webapps
+    overwrite: yes
+  - source: images/DevOps.png
+    destination: /usr/share/tomcat7/webapps/images
+    overwrite: yes
+  - source: images/tomcat.gif
+    destination: /usr/share/tomcat7/webapps/images
+    overwrite: yes
+  - source: META-INF/MANIFEST.MF
+    destination: /usr/share/tomcat7/webapps/META-INF
+    overwrite: yes
+  - source: WEB-INF/web.xml
+    destination: /usr/share/tomcat7/webapps/WEB-INF
+    overwrite: yes
+  - source: WEB-INF/classes/mypackage/Hello.class
+    destination: /usr/share/tomcat7/webapps/WEB-INF
+    overwrite: yes
+hooks:
+  BeforeInstall:
+  ApplicationStop:
